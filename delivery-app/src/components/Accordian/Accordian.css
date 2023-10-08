@@ -1,0 +1,29 @@
+
+
+
+
+
+
+
+.accordian{
+    width: 85vw;
+    margin: auto;
+}
+.accordion-item button{
+    margin: 1rem 0 0rem 0;   
+    /* border: 1px solid blue; */
+}
+.heading{
+    /* border: 1px solid red; */
+    width: fit-content;
+    height: fit-content;
+    margin:4rem auto 0 auto;
+    }
+    .heading div{
+        width: 40px;
+        height: 4px;
+        background-color: blue;
+        margin: auto;
+        border-radius: 3px;
+    }
+    .accordian{margin-top: 3rem;}

@@ -1,0 +1,74 @@
+
+.footer{
+    margin-top: 7rem;
+    background-color:#0e1d34 ;
+    color: white;
+    display: flex;
+}
+.left{
+    width: 40vw;
+    /* border: 1px solid red; */
+}
+.img{
+    width: 4vw;
+    height: 5vh;
+    filter: invert(1);
+}
+.logos img{
+    width: 2.5vw;
+    height: 3vh;
+    margin: 1rem 1rem 3rem 1rem;
+    
+
+}
+.logos{
+    margin-left: 4rem;
+}
+.upperright{
+    display: flex;
+}
+.left h3{
+    margin: 2rem 0 2rem 4rem;
+}
+.left p{
+    margin: 2rem 0 2rem 4rem;
+}
+.contactus{
+    width: 8vw;
+    height: fit-content;
+    /* border: 1px solid red; */
+    /* text-align: center; */
+    /* margin: 4rem 2rem 7rem 8rem; */
+}
+.upperright div{
+    margin: 5rem 3rem 8rem 5rem;
+}
+ol li{
+    line-height: 2rem;
+    /* list-style-type: none; */
+    margin: 0;
+}
+.usefullinks h6{
+    margin-left: 1rem;
+}
+.ourservices h6{
+    margin-left: 1rem;
+}
+.contactus p{
+    line-height: 1.8rem;
+}
+.contactus span{
+    line-height: 1.8rem;
+}
+.lowerright{
+    /* border: 1px solid red; */
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+   
+    position: relative;
+    bottom: 6rem;
+}
+.lowerright p{
+    line-height: 1.2rem;
+}

@@ -1,0 +1,61 @@
+
+
+
+
+
+
+
+
+
+
+.card{
+    width: 26vw;
+    margin: 1.2rem 0 1.2rem 1.5rem;
+}
+.card img{
+    width: 100%;
+}
+.cards{
+    width: 90vw;
+    margin: auto;
+    display: grid;
+   /* border: 1px solid red; */
+   grid-template-columns: repeat(3,1fr); 
+   margin-top: 4rem;
+}
+.underline {
+    width: fit-content;
+    height: fit-content;
+    /* border: 1px solid blue; */
+    margin: 5rem auto 2rem;
+    display: flex;
+    flex-direction: column;
+
+
+    
+}
+.underline div{
+    width: 40px;
+    height: 4px;
+    background-color: blue;
+    margin: auto;
+    border-radius: 3px;
+}
+.underline h3{
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+.card-body h3{
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.card-body{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(20, 36, 41, 0.7);
+    font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+
+
+
+
+
+
+.headingbox img{
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
+    /* overflow: scroll; */
+    filter: brightness(0.5) invert(0);
+}
+.callcontent{
+    width: 100vw;
+    height: 100vh;
+}
+.headingbox{
+    /* border: 2px solid red; */
+    width: 100vw;
+    height: 55vh;
+    background-attachment: fixed;
+    margin-top: 5rem;
+}
+.call{
+    text-align: center;
+    /* border: 1px solid black; */
+    width: 60vw;
+    margin: auto;
+    position: relative;
+    bottom: 40vh;
+}
+.call h3{
+    font-family: 'Russo One', sans-serif;
+    font-size: 2.5rem;
+    color: aliceblue;
+    margin: 2rem auto;
+}
+.call p{
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    font-size: 1rem;
+    margin: 1rem auto;
+}
+.call button{
+    height: 7vh;
+    width: 14vw;
+    border: 2px solid white;
+    background: transparent;
+    font-family: 'Ubuntu', sans-serif;
+color: aliceblue;
+margin: 1.5rem auto;
+border-radius: 0.3rem;
+}
+.singlediv{
+    width: 80vw;
+    height: fit-content;
+    /* border: 2px solid red; */
+    display: flex;
+    margin: auto;
+    margin: 5rem auto 1rem auto;
+}
+.justimage{
+    height: 100%;
+    width: 45%;
+    /* border: 2px solid blue; */
+}
+.justimage img{
+    width: 100%;
+    height: 100%;
+}
+.image-text{
+    width: 50%;
+    height: 80%;
+    /* border: 2px solid rgb(7, 6, 6);  */
+    margin: auto;
+}
+.image-text h3{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    margin: auto auto 1rem 1rem;
+}
+.image-text p{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 2rem;
+    margin: auto auto 1rem 1rem;
+
+
+}
+.image-text ul li{
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 2rem;
+
+}
+@media screen and (max-width:1350px){
+    .call{
+        text-align: center;
+        /* border: 1px solid black; */
+        width: 60vw;
+        margin: auto;
+        position: relative;
+        bottom: 52vh;
+    }
+}
